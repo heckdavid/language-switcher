@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0a0a23;
+}
+
+.container {
+    position: relative;
+    max-width: 600px;
+    height: 500px;
+    padding: 0px;
+    color: black;
+    text-align: center;
+}
+
+.languageSection {
+    background: #ffffff;
+}
+
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+    background: #feac32;
+    color: #0a0a23;
+    font-size: 22px;
+
+}
+
+.title {
+    color: white;
+}
+
+.content {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.description {
+    color: #ffffff;
+}
