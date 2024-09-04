@@ -16,16 +16,16 @@ buttonEls.forEach((buttonEl) => {
 });
 
 const dictionary = {
-    "english": {
-        "title": "Translating static text.",
-        "description": "Translating static text"
+    english: {
+        title: 'Translating static text.',
+        description: 'Translating static text'
     },
-    "french": {
-        "title": "Traduire du texte statique.",
-        "description": "Traduire du texte statique."
+    french: {
+        title: 'Traduire du texte statique.',
+        description: 'Traduire du texte statique.'
     },
-    "german": {
-        "title": "Statischen Text übersetzen.",
-        "description": "Statischen Text übersetzen."
+    german: {
+        title: 'Statischen Text übersetzen.',
+        description: 'Statischen Text übersetzen.'
     }
 }
