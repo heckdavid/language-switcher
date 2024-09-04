@@ -1,4 +1,4 @@
-const langSec = document.querySelector(".language-section");
+const languageSectionEl = document.querySelector('.language-section');
 const buttons = document.querySelectorAll(".button");
 const textTitle = document.querySelector(".title");
 const textDesc = document.querySelector(".description");
