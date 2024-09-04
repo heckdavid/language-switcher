@@ -3,7 +3,7 @@ const buttonEls = document.querySelectorAll(".button");
 const textTitleEl = document.querySelector(".title");
 const textDescriptionEl = document.querySelector(".description");
 
-buttons.forEach(button => {
+buttonEls.forEach((buttonEl) => {
     button.addEventListener('click', () => {
         langSec.querySelector(".active").classList.remove(".active");
         button.classList.add("active");
