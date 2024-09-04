@@ -4,7 +4,7 @@ const textTitleEl = document.querySelector(".title");
 const textDescriptionEl = document.querySelector(".description");
 
 buttonEls.forEach((buttonEl) => {
-    button.addEventListener('click', () => {
+  button.addEventListener('click', () => {
         langSec.querySelector(".active").classList.remove(".active");
         button.classList.add("active");
 
