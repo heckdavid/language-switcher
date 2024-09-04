@@ -1,6 +1,6 @@
 const languageSectionEl = document.querySelector('.language-section');
-const buttons = document.querySelectorAll(".button");
-const textTitle = document.querySelector(".title");
+const buttonEls = document.querySelectorAll(".button");
+const textTitleEl = document.querySelector(".title");
 const textDesc = document.querySelector(".description");
 
 buttons.forEach(button => {
