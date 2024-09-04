@@ -4,9 +4,9 @@ const textTitleEl = document.querySelector('.title');
 const textDescriptionEl = document.querySelector('.description');
 
 buttonEls.forEach((buttonEl) => {
-  button.addEventListener('click', () => {
-        langSec.querySelector('.active').classList.remove('.active');
-        button.classList.add('active');
+  buttonEl.addEventListener('click', () => {
+        languageSectionEl.querySelector('.active').classList.remove('.active');
+        buttonEl.classList.add('active');
 
         const attribute = buttonEl.getAttribute('data-language');
 
