@@ -1,7 +1,7 @@
 const languageSectionEl = document.querySelector('.language-section');
 const buttonEls = document.querySelectorAll(".button");
 const textTitleEl = document.querySelector(".title");
-const textDesc = document.querySelector(".description");
+const textDescriptionEl = document.querySelector(".description");
 
 buttons.forEach(button => {
     button.addEventListener('click', () => {
