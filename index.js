@@ -8,7 +8,7 @@ buttonEls.forEach((buttonEl) => {
         langSec.querySelector('.active').classList.remove('.active');
         button.classList.add('active');
 
-        const attr = button.getAttribute("data-language");
+        const attribute = buttonEl.getAttribute('data-language');
 
         textTitle.textContent = data[attr].title;
         textDesc.textContent = data[attr].description;
