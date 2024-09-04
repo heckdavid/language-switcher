@@ -10,8 +10,8 @@ buttonEls.forEach((buttonEl) => {
 
         const attribute = buttonEl.getAttribute('data-language');
 
-        textTitle.textContent = data[attr].title;
-        textDesc.textContent = data[attr].description;
+        textTitleEl.textContent = dictionary[attribute].title;
+        textDescriptionEl.textContent = dictionary[attribute].description;
     });
 });
 
