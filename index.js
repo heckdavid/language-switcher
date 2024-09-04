@@ -15,7 +15,7 @@ buttonEls.forEach((buttonEl) => {
     });
 });
 
-const data = {
+const dictionary = {
     "english": {
         "title": "Translating static text.",
         "description": "Translating static text"
