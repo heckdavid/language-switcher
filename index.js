@@ -29,3 +29,8 @@ const dictionary = {
         description: 'Statischen Text übersetzen.'
     }
 }
+
+        "title": "Statischen Text übersetzen.",
+        "description": "Statischen Text übersetzen."
+    }
+}
