@@ -1,30 +1,35 @@
-const langSec = document.querySelector(".language-section");
-const buttons = document.querySelectorAll(".button");
-const textTitle = document.querySelector(".title");
-const textDesc = document.querySelector(".description");
+const languageSectionEl = document.querySelector('.language-section');
+const buttonEls = document.querySelectorAll('.button');
+const textTitleEl = document.querySelector('.title');
+const textDescriptionEl = document.querySelector('.description');
 
-buttons.forEach(button => {
-    button.addEventListener('click', () => {
-        langSec.querySelector(".active").classList.remove(".active");
-        button.classList.add("active");
+buttonEls.forEach((buttonEl) => {
+  buttonEl.addEventListener('click', () => {
+        languageSectionEl.querySelector('.active').classList.remove('.active');
+        buttonEl.classList.add('active');
 
-        const attr = button.getAttribute("data-language");
+        const attribute = buttonEl.getAttribute('data-language');
 
-        textTitle.textContent = data[attr].title;
-        textDesc.textContent = data[attr].description;
+        textTitleEl.textContent = dictionary[attribute].title;
+        textDescriptionEl.textContent = dictionary[attribute].description;
     });
 });
 
-const data = {
-    "english": {
-        "title": "Translating static text.",
-        "description": "Translating static text"
+const dictionary = {
+    english: {
+        title: 'Translating static text.',
+        description: 'Translating static text'
     },
-    "french": {
-        "title": "Traduire du texte statique.",
-        "description": "Traduire du texte statique."
+    french: {
+        title: 'Traduire du texte statique.',
+        description: 'Traduire du texte statique.'
     },
-    "german": {
+    german: {
+        title: 'Statischen Text übersetzen.',
+        description: 'Statischen Text übersetzen.'
+    }
+}
+
         "title": "Statischen Text übersetzen.",
         "description": "Statischen Text übersetzen."
     }
