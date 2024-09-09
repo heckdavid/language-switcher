@@ -1,0 +1,20 @@
+{
+  "name": "language-switcher",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Switch from english to french or german.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "author": "David",
+  "license": "MIT",
+  "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^2.7.2",
+    "eslint": "^9.10.0",
+    "eslint-config-tjw-base": "^3.0.1"
+  },
+  "volta": {
+    "node": "22.8.0"
+  }
+}

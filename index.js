@@ -5,32 +5,27 @@ const textDescriptionEl = document.querySelector('.description');
 
 buttonEls.forEach((buttonEl) => {
   buttonEl.addEventListener('click', () => {
-        languageSectionEl.querySelector('.active').classList.remove('.active');
-        buttonEl.classList.add('active');
+    languageSectionEl.querySelector('.active').classList.remove('.active');
+    buttonEl.classList.add('active');
 
-        const attribute = buttonEl.getAttribute('data-language');
+    const attribute = buttonEl.getAttribute('data-language');
 
-        textTitleEl.textContent = dictionary[attribute].title;
-        textDescriptionEl.textContent = dictionary[attribute].description;
-    });
+    textTitleEl.textContent = dictionary[attribute].title;
+    textDescriptionEl.textContent = dictionary[attribute].description;
+  });
 });
 
 const dictionary = {
-    english: {
-        title: 'Translating static text.',
-        description: 'Translating static text'
-    },
-    french: {
-        title: 'Traduire du texte statique.',
-        description: 'Traduire du texte statique.'
-    },
-    german: {
-        title: 'Statischen Text übersetzen.',
-        description: 'Statischen Text übersetzen.'
-    }
-}
-
-        "title": "Statischen Text übersetzen.",
-        "description": "Statischen Text übersetzen."
-    }
-}
+  english: {
+    title: 'Translating static text.',
+    description: 'Translating static text'
+  },
+  french: {
+    title: 'Traduire du texte statique.',
+    description: 'Traduire du texte statique.'
+  },
+  german: {
+    title: 'Statischen Text übersetzen.',
+    description: 'Statischen Text übersetzen.'
+  }
+};
