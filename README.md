@@ -1,4 +1,4 @@
-# Language Switcher  
+# Language Switcher
 
 
 ## Description  
